@@ -20,8 +20,8 @@
 
 ## 🫂 Contribuidores
 
-<a href="https://github.com/midudev/porfolio.dev/graphs/contributors">
+<!-- <a href="https://github.com/midudev/porfolio.dev/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=midudev/porfolio.dev" />
-</a>
+</a> -->
 
 <p></p>

@@ -1,0 +1,37 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCE = [
+  {
+    date: "Actualmente...",
+    title: "Desarrollador Fullstack",
+    company: "Freelance",
+    description:
+      "He desarrollado y optimizado aplicaciones frontend utilizando HTML, CSS y JavaScript, y he resuelto problemas de estabilidad en proyectos, experiencia que ha complementado mi trabajo con frameworks como React.Js, y VueJs. En el ámbito backend, he trabajado con herramientas como NodeJS, Express, PHP y Laravel, desarrollando aplicaciones escalables y seguras, logrando reducir los tiempos de respuesta del servidor en un 30% y optimizando el manejo de datos para sistemas que soportan más de multiples solicitudes concurrentes.",
+    /* link: "https://twitch.tv/midudev" */
+  },
+  {
+    date: "Marzo 2022 – Junio 2024",
+    title: "Desarrollador Frontend",
+    company: "Let’s Do It Now",
+    description:
+      "Desarrollé componentes responsivos para sistemas ERP y CRM utilizando React.js y VueJs, optimizando la carga de datos en un 35% mediante la integración de RESTful APIs con técnicas avanzadas como lazy loading y prefetching. Participé activamente en más de 30 sprints ágiles, contribuyendo al diseño de funcionalidades clave y la planificación estratégica de proyectos.",
+  },
+  {
+    date: "Mayo 2021 – Diciembre 2022",
+    title: "Desarrollador Frontend",
+    company: "Siclog, SENA",
+    description:
+      "Implementé 4 aplicaciones web responsivas con React.js, VueJs e Ionic, mejorando la experiencia de los usuarios móviles en un 20%. Diseñé y gestioné pruebas unitarias que redujeron en un 50% los errores recurrentes, asegurando mayor estabilidad en los sistemas.",
+  },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCE.map((experience) => (
+      <li class="">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
